@@ -7,7 +7,7 @@ const main = () => {
 
   const getRandomDelay = () => {
     // Generate a random delay between 10,000 and 25,000 milliseconds
-    return Math.floor(Math.random() * (25000 - 10000 + 1)) + 10000;
+    return Math.floor(Math.random() * (8000 - 7000 + 1)) + 7000;
   }
 
   const randomText = () => {
@@ -29,7 +29,7 @@ const main = () => {
     counter++;
     console.log('counter', counter);
 
-    if (counter === 35) {
+    if (counter === 6) {
       clearInterval(intervalId);
     } else {
       // Schedule the next search with a random delay
