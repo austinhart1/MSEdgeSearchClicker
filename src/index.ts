@@ -29,7 +29,7 @@ const main = () => {
     counter++;
     console.log('counter', counter);
 
-    if (counter === 35) {
+    if (counter === 20) {
       clearInterval(intervalId);
     } else {
       // Schedule the next search with a random delay
